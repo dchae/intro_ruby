@@ -1,4 +1,5 @@
-begin
+loop do
   puts "Do you want to do that again?"
   answer = gets.chomp
-end while answer == "Y"
+  break if answer != "Y"
+end
