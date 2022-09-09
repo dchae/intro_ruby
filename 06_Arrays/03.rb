@@ -1,0 +1,5 @@
+arr = [%w[test hello world], %w[example mem]]
+p arr[1][0]
+p arr[-1][-2]
+p arr.flatten[3]
+p arr.flatten.select { |x| x == "example" }[0]
